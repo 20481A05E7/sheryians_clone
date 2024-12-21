@@ -1,0 +1,77 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block title %}
+    {% endblock title %}
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+    {% block link %}
+    {% endblock link %}
+</head>
+<body>
+    <nav id="nav1">
+        <div id="logo_div">
+            <img id="logo" src="{% static 'Sher_logo.webp' %}" alt="">
+            <a href="" class="anchor" id="logo_anc">Sheryians coding school</a>
+        </div>
+        <div id="anchors_div">
+            <a href="" class="anchor">Home</a>
+            <a href="{% url 'sheryian:courses' %}" class="anchor" target="_blank">Courses</a>
+            <a href="{% url 'sheryian:bootcamp' %}" class="anchor" target="_blank">BootCamp(Kodr)</a>
+            <a href="{%  url 'sheryian:requestcallback' %}" class="anchor">Request CallBack</a>
+            <a href="{% url 'sheryian:signin' %}" class="anchor"><button id="signin">Sign In</button></a>
+        </div>
+    </nav>
+    {% block body %}
+
+    {% endblock body %}
+    <div id="footer">
+        <div id="contacts">
+            <div id="socials" class="contact_divs">
+                <img src="{% static 'Sher_logo.webp' %}" id="logo2" alt="">
+                <h1 id="connect_text">Let's connect with our socials</h1>
+                <div id="social_logos">
+                    <a target="_blank" href="https://www.instagram.com/sheryians_coding_school"><img class="app_icons" src="{% static 'insta_icon.png' %}" alt=""></a>
+                    <a target="_blank" href="https://in.linkedin.com/company/the-sheryians-coding-school"><img class="app_icons" src="{% static 'linkdin_icon.png' %}" alt=""></a>
+                    <a target="_blank" href="https://twitter.com/sheryians_"><img class="app_icons" src="{% static 'twitter_icon.png' %}" alt=""></a>
+                    <a target="_blank" href="https://discord.gg/D23JkFqrgz"></a>
+                    <a target="_blank" href="https://www.youtube.com/@thesheryianscodingschool"><i class="ri-youtube-fill"></i></a>
+                </div>
+            </div>
+            <div id="company" class="contact_divs">
+                <h1 class="footer_headings">COMPANY</h1>
+                <div id="company_options">
+                    <a href="" class="options">About Us</a>
+                    <a href="" class="options">Support</a>
+                    <a href="" class="options">Privacy Policy</a>
+                    <a href="" class="options">Terms and Condition</a>
+                    <a href="" class="options">Pricing and Refund</a>
+                    <a href="" class="options">Hire From Us</a>
+                    <a href="" class="options">Bug Bounty</a>
+                </div>
+            </div>
+            <div id="community" class="contact_divs">
+                <h1 class="footer_headings">COMMUNITY</h1>
+                <div id="community_div">
+                    <a href="" class="options">Inertia</a>
+                    <a href="" class="options">Discord</a>
+                </div>
+            </div>
+            <div id="get_in_touch" class="contact_divs">
+                <h1 class="footer_headings">Get In Touch</h1>
+                <div id="git_div">
+                    <a href="" class="options">+91 8109161752</a>
+                    <a href="" class="options">+91 9691778470</a>
+                    <a href="" class="options">hello@sheryians.com</a>
+                    <a href="" class="options">23-B, Indrapuri Sector C,<br>Bhopal(MP), 462021</a>
+                </div>
+            </div>
+        </div>
+        <div id="bottom">
+            <h1 id="copyright_text">Copyright © 2024 Sheryians Pvt. Ltd. <br> All Rights Reserved.</h1>
+          </div>
+    </div>
+</body>
+</html>

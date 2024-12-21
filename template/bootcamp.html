@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+<title>Bootcamp</title>
+{% endblock title %}
+
+{% block link %}
+<link rel="stylesheet" href="{% static 'bootcamp.css' %}">
+{% endblock link %}
+
+
+{% block body %}
+<div id="view1">
+    <div id="headings_div"></div>
+    <div id="video_div">
+        <!-- <video id="video2" src="https://www.youtube.com/embed/pOGLAlGCKFE?si=lp4FPHtxYbr_4sj6"></video> -->
+        <iframe id="video2_frame" src="https://www.youtube.com/embed/pOGLAlGCKFE?si=lp4FPHtxYbr_4sj6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+    </div>
+</div>
+{% endblock body %}

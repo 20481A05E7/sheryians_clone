@@ -1,0 +1,343 @@
+@font-face{
+    font-family: NeueMachina;
+    /* src:{% static 'Fonts/Neue-Machina/NeueMachina-Regular.otf' %}; */
+    src: url(../static/Fonts/Neue-Machina/NeueMachina-Regular.otf);
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(../static/Fonts/Helvetica/Helvetica-Bold.ttf);
+}
+@font-face {
+    font-family: juana;
+    src: url(../static/Fonts/Juana/Fontspring-DEMO-juana-extralightit.otf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-family: NeueMachina; */
+}
+body{
+    background-color: red;
+    background-image: url("data:image/svg+xml,%3Csvg width='1512' height='6397' viewBox='0 0 1512 6397' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_243_2)'%3E%3Crect width='1512' height='6397' fill='%230c0c0c' /%3E%3Cg opacity='0.4' filter='url(%23filter0_f_243_2)'%3E%3Cpath d='M387.38 137.553C355.297 -107.774 513.625 -371.892 752.935 -403.188C992.246 -434.485 1087.35 -273.117 1119.44 -27.7906C1151.52 217.536 993.208 -36.6224 796.88 -10.947C557.569 20.3495 419.463 382.88 387.38 137.553Z' fill='%2324cfa7' /%3E%3C/g%3E%3Cg filter='url(%23filter1_f_243_2)'%3E%3Ccircle cx='15' cy='3176' r='185' fill='%2324cfa7' /%3E%3C/g%3E%3Cg filter='url(%23filter2_f_243_2)'%3E%3Ccircle cx='1275' cy='840' r='64' fill='%2324cfa7' /%3E%3C/g%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_f_243_2' x='239.258' y='-551.062' width='1028.33' height='917.31' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix' /%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape' /%3E%3CfeGaussianBlur stdDeviation='72' result='effect1_foregroundBlur_243_2' /%3E%3C/filter%3E%3Cfilter id='filter1_f_243_2' x='-774' y='2387' width='1578' height='1578' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix' /%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape' /%3E%3CfeGaussianBlur stdDeviation='302' result='effect1_foregroundBlur_243_2' /%3E%3C/filter%3E%3Cfilter id='filter2_f_243_2' x='967' y='532' width='616' height='616' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix' /%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape' /%3E%3CfeGaussianBlur stdDeviation='122' result='effect1_foregroundBlur_243_2' /%3E%3C/filter%3E%3CclipPath id='clip0_243_2'%3E%3Crect width='1512' height='6397' fill='white' /%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    color: white;
+}
+#nav1{
+    padding: 10px;
+    /* background-color: aqua; */
+}
+#logo{
+    width: 20px;
+    position: relative;
+    top: 6px;
+}
+.anchor{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-family: NeueMachina;
+    font-size: small;
+}
+#logo_anc{
+    margin-left: 2px;
+}
+#logo_div{
+    margin-left: 50px;
+    display: inline-block;
+}
+#anchors_div{
+    display: inline-block;
+    margin-left: 38%;
+}
+#signin{
+    background-color: #24cfa6;
+    width: 100px;
+    height: 40px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#banner1{
+    text-align: center;
+    margin-top: 100px;
+}
+#heading1{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 70px;
+    font-family:NeueMachina;
+}
+#juana_text{
+    
+    font-family: juana;
+}
+.color_text{
+    color: #24cfa6;
+}
+#check_button{
+    background-color: #24cfa6;
+    width: 350px;
+    margin-top: 60px;
+    height: 40px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.side-text{
+    position: absolute;
+    left: 1100px;
+    bottom: 280px;
+    width: 300px;
+    text-align: left;
+    font-size: 13px;
+}
+#numbers{
+    margin: 140px;
+    margin-left: 450px;
+}
+.number{
+    font-family: Helvetica;
+}
+.num_text{
+    font-size: 20px;
+}
+.num_cards{
+    display: inline-block;
+    margin-right: 130px;
+    text-align: center;
+}
+#banner21{
+    text-align: left;
+    font-size: 75px;
+    line-height: 60px;
+    top: 40px;
+    padding: 60px;
+    font-family: NeueMachina;
+}
+#heading2{
+    font-family: Helvetica;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.banner2{
+    /* position: relative; */
+    text-align: center;
+    font-size: 42px;
+    line-height: 40px;
+    top: 40px;
+    font-family: NeueMachina;
+}
+#video_div{
+    text-align: center;
+}
+#video{
+    background-color: lightgray;
+    width: 952px;
+    height: 530px;
+    border-radius: 25px;
+    margin-top: 65px;
+    margin-left: 290px;
+    margin-bottom: 50px;
+}
+#video_frame{
+    width: 100%;
+    height: 100%;
+}
+#explore_button{
+    background-color: #24cfa6;
+    height: 50px;
+    width: 248px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-family: Helvetica;
+    font-size: 19px;
+    cursor: pointer;
+}
+#courses_div{
+    /* background-color: aliceblue; */
+    margin-top: 96px;
+    height: fit-content;
+    padding-left: 45px;
+    padding-right: 55px;
+    padding-top: 55px;
+}
+#course_heading{
+    /* background-color: antiquewhite; */
+    color: white;
+    font-size: 40px;
+    font-family: NeueMachina;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+#course_cards_div{
+    width: 100%;
+    height: 90%;
+    /* background-color: bisque; */
+}
+.course_cards{
+    height: 450px;
+    width: 310px;
+    margin: 20px;
+    /* background-color: red; */
+    display: inline-block;
+}
+.card_imgs{
+    width: 100%;
+    height: 380px;
+    border-radius: 30px;
+    background-color: rgba(119, 136, 153, 0.16);
+    backdrop-filter: blur(10px);
+}
+a{
+    text-decoration: none;
+}
+.card_top_img{
+    height: 50%;
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+}
+.img_down{
+    height: 50%;
+    width: 100%;
+    border-radius: 0px 0px 30px 30px;
+    font-family: Helvetica;
+}
+.course_name{
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
+.c_lang{
+    color: white;
+    font-size: 15px;
+    width: fit-content;
+    background-color: rgba(211, 211, 211, 0.247);
+    backdrop-filter: blur(10px);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+.dis_stmnt{
+    color: #24cfa6;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+.price{
+    color: white;
+    margin-left: 5px;
+    font-size: 23px;
+    font-weight: 400;
+}
+.old_price{
+    color: lightgray;
+    text-decoration: line-through;
+    font-size: 17px;
+    padding: 4px;
+}
+.offer{
+    background-color: white;
+    color: black;
+    width: fit-content;
+    font-size: 15px;
+    position: relative;
+    top: -30px;
+    left: 70%;
+    border-radius: 4px;
+    padding: 3px;
+}
+.view_details{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: #24cfa6;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-family: Helvetica;
+    font-size: 24px;
+    cursor: pointer;
+}
+#banner3{
+    text-align: center;
+}
+#companies_text{
+    margin: 50px;
+    font-size: 45px;
+    font-family: NeueMachina;
+}
+#companies_img{
+    position: relative;
+    left: 15px;
+    width: 74%;
+    /* margin: 20px; */
+    margin-bottom: 0px;
+}
+#explore_courses_button{
+    background-color: #24cfa6;
+    height: 50px;
+    width: 248px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-family: Helvetica;
+    font-size: 19px;
+    cursor: pointer;
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+#contacts{
+    /* background-color: antiquewhite; */
+    height: 450px;
+}
+.contact_divs{
+    float: left;
+    display: inline-block;
+    margin: 100px;
+}
+#logo2{
+    width: 40px;
+}
+#connect_text{
+    font-size: 14px;
+    font-family: Helvetica;
+}
+.app_icons{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+.footer_headings{
+    font-size: 20px;
+    font-family: Helvetica;
+}
+.options{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: Helvetica;
+    font-size: small;
+    font-weight: 100;
+    margin: 20px;
+}
+#bottom{
+    padding: 25px;
+    /* background-color: ~antiquewhite; */
+}
+#copyright_text{
+    position: relative;
+    right: 400px;
+    text-align: center;
+    font-size: 13px;
+    font-family: Helvetica;
+}

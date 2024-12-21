@@ -1,0 +1,210 @@
+{% extends 'base.html' %}
+{% load static %}
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheryians</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body> -->
+    <!-- <nav id="nav1">
+        <div id="logo_div">
+            <img id="logo" src="{% static 'Sher_logo.webp' %}" alt="">
+            <a href="" class="anchor" id="logo_anc">Sheryians coding school</a>
+        </div>
+        <div id="anchors_div">
+            <a href="" class="anchor">Home</a>
+            <a href="{% url 'sheryian:courses' %}" class="anchor">Courses</a>
+
+
+
+            <a href="" class="anchor">BootCamp(Kodr)</a>
+            <a href="" class="anchor">Request CallBack</a>
+            <a href="" class="anchor"><button id="signin">Sign In</button></a>
+        </div>
+    </nav> -->
+{% block title %}
+<title>Sheryians</title>
+{% endblock title %}
+{% block body %}
+
+    <div id="banner1">
+        <h1 id="heading1">We only <span class="color_text">teach</span> <br> what we are really <br> really <span id="juana_text">good</span> at.</h1>
+        <button id="check_button">Check Courses-Make an Impact</button>
+        <div class="side-text">
+            Get ready to <span class="color_text">accelerate your <br>
+            career </span> with customized courses <br>
+            and leave your mark in the tech <br>
+            industry
+        </div>
+    </div>
+    <div id="numbers">
+        <div class="num_cards">
+            <h1 class="number">25k+</h1>
+            <h4 class="num_text">Students taught</h4>
+        </div>
+        <div class="num_cards">
+            <h1 class="number">20+</h1>
+            <h4 class="num_text">Instructors</h4>
+        </div>
+        <div class="num_cards">
+            <h1 class="number">431K+</h1>
+            <h4 class="num_text">Youtube Subs.</h4>
+        </div>
+    </div>
+    <div id="banner2" class="banner2">
+        we do whatever it takes to help you <br>
+        <span class="color_text">understand the concepts.</span>
+    </div>
+    <div id="video_div">
+        <div id="video">
+            <iframe id="video_frame" frameborder="0" src="https://www.youtube.com/embed/60SRAWmMXyc"></iframe>
+        </div>
+        <a href=""><button id="explore_button">Explore free learning</button></a>
+    </div>
+    <div id="courses_div">
+        <h1 id="course_heading">Courses Offered.</h1>
+        <div id="course_cards_div">
+            <div class="course_cards">
+                <a href="">
+                    <div class="card_imgs">
+                        <img src="https://ik.imagekit.io/sheryians/courses_gif/Front-End_Domination__Create_Anything_with_Code-FRONTENDTHUBNAIL_Wf8WqcNJx.jpg" alt="" class="card_top_img">
+                        <div class="img_down">
+                            <h1 class="course_name">Front-End Domination: <br>Create Anything with Code</h1>
+                            <h1 class="c_lang">HINDI</h1>
+                            <h1 class="dis_stmnt">Limited Time Discount</h1>
+                            <h1 class="price">$4999 <span class="old_price">$9999</span></h1>
+                            <h1 class="offer">50% OFF</h1>
+                        </div>
+                    </div>
+                </a>
+                <button class="view_details">
+                    View Details
+                </button>
+            </div>
+            <div class="course_cards">
+                <a href="">
+                    <div class="card_imgs">
+                        <img src="https://ik.imagekit.io/sheryians/courses_gif/undefined-backend_0.5x_Medium_wgHDU-5rPt.png" alt="" class="card_top_img">
+                        <div class="img_down">
+                            <h1 class="course_name">Back-End Domination: <br>Create Efficient BAck-End.</h1>
+                            <h1 class="c_lang">HINDI</h1>
+                            <h1 class="dis_stmnt">Limited Time Discount</h1>
+                            <h1 class="price">$5999</h1>
+                            <h1 class="offer">50% OFF</h1>
+                        </div>
+                    </div>
+                </a>
+                <button class="view_details">
+                    View Details
+                </button>
+            </div>
+            <div class="course_cards">
+                <a href="">
+                    <div class="card_imgs">
+                        <img src="https://ik.imagekit.io/sheryians/courses_gif/undefined-apti_reasoning_45vyAnZ4y.jpeg" alt="" class="card_top_img">
+                        <div class="img_down">
+                            <h1 class="course_name">Aptitude & Reasoning for <br>Campus Placements</h1>
+                            <h1 class="c_lang">HINGLISH</h1>
+                            <h1 class="dis_stmnt">Black Friday Sale</h1>
+                            <h1 class="price">$999<span class="old_price">$1500</span></h1>
+                            <h1 class="offer">33% OFF</h1>
+                        </div>
+                    </div>
+                </a>
+                <button class="view_details">
+                    View Details
+                </button>
+            </div>
+            <div class="course_cards">
+                <a href="">
+                    <div class="card_imgs">
+                        <img src="https://ik.imagekit.io/sheryians/courses_gif/undefined-javaas_Large_jY0Wighav__6PygWBZQ.jpeg" alt="" class="card_top_img">
+                        <div class="img_down">
+                            <h1 class="course_name">Java & DSA Domination</h1>
+                            <h1 class="c_lang">HINGLISH</h1>
+                            <h1 class="dis_stmnt">Limited Time Discount</h1>
+                            <h1 class="price">$4999<span class="old_price">$9999</span></h1>
+                            <h1 class="offer">50% OFF</h1>
+                        </div>
+                    </div>
+                </a>
+                <button class="view_details">
+                    View Details
+                </button>
+            </div>
+            <div class="course_cards">
+                <a href="">
+                    <div class="card_imgs">
+                        <img src="https://ik.imagekit.io/sheryians/courses_gif/undefined-maxresdefault_5-AHh9_1Y.jpg" alt="" class="card_top_img">
+                        <div class="img_down">
+                            <h1 class="course_name">Three.js Domination</h1>
+                            <h1 class="c_lang">HINDI</h1>
+                            <h1 class="dis_stmnt">Black Friday Sale</h1>
+                            <h1 class="price">$2499 <span class="old_price">$3500</span></h1>
+                            <h1 class="offer">29% OFF</h1>
+                        </div>
+                    </div>
+                </a>
+                <button class="view_details">
+                    View Details
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="banner3">
+        <h1 id="companies_text">Top <span class="color_text">companies</span> our students <br>working with</h1>
+        <img id="companies_img" src="https://ik.imagekit.io/sheryians/companies-logo/companies_CcvVE6pUo.png" alt="">
+        <a href=""><button id="explore_courses_button">Explore Courses</button></a>
+    </div>
+{% endblock body %}
+    <!-- <div id="footer">
+        <div id="contacts">
+            <div id="socials" class="contact_divs">
+                <img src="{% static 'Sher_logo.webp' %}" id="logo2" alt="">
+                <h1 id="connect_text">Let's connect with our socials</h1>
+                <div id="social_logos">
+                    <a target="_blank" href="https://www.instagram.com/sheryians_coding_school"><img class="app_icons" src="{% static 'insta_icon.png' %}" alt=""></a>
+                    <a target="_blank" href="https://in.linkedin.com/company/the-sheryians-coding-school"><img class="app_icons" src="{% static 'linkdin_icon.png' %}" alt=""></a>
+                    <a target="_blank" href="https://twitter.com/sheryians_"><img class="app_icons" src="{% static 'twitter_icon.png' %}" alt=""></a>
+                    <a target="_blank" href="https://discord.gg/D23JkFqrgz"></a>
+                    <a target="_blank" href="https://www.youtube.com/@thesheryianscodingschool"><i class="ri-youtube-fill"></i></a>
+                </div>
+            </div>
+            <div id="company" class="contact_divs">
+                <h1 class="footer_headings">COMPANY</h1>
+                <div id="company_options">
+                    <a href="" class="options">About Us</a>
+                    <a href="" class="options">Support</a>
+                    <a href="" class="options">Privacy Policy</a>
+                    <a href="" class="options">Terms and Condition</a>
+                    <a href="" class="options">Pricing and Refund</a>
+                    <a href="" class="options">Hire From Us</a>
+                    <a href="" class="options">Bug Bounty</a>
+                </div>
+            </div>
+            <div id="community" class="contact_divs">
+                <h1 class="footer_headings">COMMUNITY</h1>
+                <div id="community_div">
+                    <a href="" class="options">Inertia</a>
+                    <a href="" class="options">Discord</a>
+                </div>
+            </div>
+            <div id="get_in_touch" class="contact_divs">
+                <h1 class="footer_headings">Get In Touch</h1>
+                <div id="git_div">
+                    <a href="" class="options">+91 8109161752</a>
+                    <a href="" class="options">+91 9691778470</a>
+                    <a href="" class="options">hello@sheryians.com</a>
+                    <a href="" class="options">23-B, Indrapuri Sector C,<br>Bhopal(MP), 462021</a>
+                </div>
+            </div>
+        </div>
+        <div id="bottom">
+            <h1 id="copyright_text">Copyright © 2024 Sheryians Pvt. Ltd. <br> All Rights Reserved.</h1>
+          </div>
+    </div> -->
+<!-- </body>
+</html> -->
