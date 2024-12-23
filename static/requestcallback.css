@@ -7,8 +7,8 @@
     margin: 0px;
 }
 body{
-    background-color: transparent;
-    backdrop-filter: blur(10px);
+    background-color: black;
+    /* backdrop-filter: blur(10px); */
 }
 #container{
     position: absolute;
@@ -21,10 +21,15 @@ body{
     text-align: center;
     padding: 20px;
     font-family: Helvetica;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
 }
 #close_button{
-    font-size: 10px;
+    font-size: 20px;
     text-align: right;
+    text-decoration: none;
 }
 #rqst_hdng{
     font-size: 20px;

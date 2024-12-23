@@ -39,8 +39,9 @@
     {% block body %}
 
     {% endblock body %}
-    <div id="footer">
-        <div id="contacts">
+{% block footer %}
+<div id="footer">
+    <div id="contacts">
             <div id="socials" class="contact_divs">
                 <img src="{% static 'Sher_logo.webp' %}" id="logo2" alt="">
                 <h1 id="connect_text">Let's connect with our socials</h1>
@@ -83,7 +84,8 @@
         </div>
         <div id="bottom">
             <h1 id="copyright_text">Copyright © 2024 Sheryians Pvt. Ltd. <br> All Rights Reserved.</h1>
-          </div>
+        </div>
     </div>
+{% endblock footer %}
 </body>
 </html>
