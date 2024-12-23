@@ -1,6 +1,24 @@
-{% extends 'base.html' %}
 {% load static %}
-
-{% block title %}
-<title>RequestCallback</title>
-{% endblock title %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requestcallback</title>
+    <link rel="stylesheet" href="{% static 'requestcallback.css'%}">
+</head>
+<body>
+    <div id="container">
+        <a href="{% url 'sheryian:home' %}"><h1 id="close_button">+</h1></a>
+        <h1 id="rqst_hdng">Request a callback</h1>
+        <h1 id="fillform">Fill th form below to request q callback from <br>our team.</h1>
+        <h1 class="labels">Name</h1>
+        <input class="inpts" type="text" placeholder="Name">
+        <h1 class="labels">Phone</h1>
+        <input class="inpts" type="text" placeholder="Phone">
+        <h1 class="labels">Select Date and Time</h1>
+        <input class="inpts" type="date" name="" id=""><br>
+        <button id="sbmt_btn">Submit</button>
+    </div>
+</body>
+</html>

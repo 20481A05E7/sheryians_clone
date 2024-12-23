@@ -17,13 +17,25 @@
             <a href="" class="anchor" id="logo_anc">Sheryians coding school</a>
         </div>
         <div id="anchors_div">
-            <a href="" class="anchor">Home</a>
-            <a href="{% url 'sheryian:courses' %}" class="anchor" target="_blank">Courses</a>
-            <a href="{% url 'sheryian:bootcamp' %}" class="anchor" target="_blank">BootCamp(Kodr)</a>
+            <a href="{% url 'sheryian:home' %}" class="anchor">Home</a>
+            <a href="{% url 'sheryian:courses' %}" class="anchor">Courses</a>
+            <a href="{% url 'sheryian:bootcamp' %}" class="anchor">BootCamp(Kodr)</a>
             <a href="{%  url 'sheryian:requestcallback' %}" class="anchor">Request CallBack</a>
             <a href="{% url 'sheryian:signin' %}" class="anchor"><button id="signin">Sign In</button></a>
         </div>
     </nav>
+    <!-- <div id="container">
+        <h1 id="close_button">+</h1>
+        <h1 id="rqst_hdng">Request a callback</h1>
+        <h1 id="fillform">Fill th form below to request q callback from <br>our team.</h1>
+        <h1 class="labels">Name</h1>
+        <input class="inpts" type="text" placeholder="Name">
+        <h1 class="labels">Phone</h1>
+        <input class="inpts" type="text" placeholder="Phone">
+        <h1 class="labels">Select Date and Time</h1>
+        <input class="inpts" type="date" name="" id=""><br>
+        <button id="sbmt_btn">Submit</button>
+    </div> -->
     {% block body %}
 
     {% endblock body %}
